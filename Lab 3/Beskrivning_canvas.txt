@@ -1,0 +1,56 @@
+In this laboratory, you will tackle the classic Travelling Salesman Problem (TSP) using two different evolutionary computation methods: Genetic Algorithms (GA) and Ant Colony Optimization (ACO).
+
+The Problem: Given a set of locations (cities) and the coordinates for each, you must determine the shortest possible route that visits every location exactly once and returns to the starting point.
+
+Dataset: The specific problem instance is provided on Canvas as "Berlin52.tsp".
+
+Coordinates: Locations are defined by X and Y coordinates. (See table below)
+
+Distance: The distance between two locations is calculated using the standard Euclidean distance formula:
+Distance (P1,P2) = 
+Constraint: The route must always start and end at Location ID 1.
+
+Two coordinates (x and y) as illustrated in the table below represent these locations:
+Location ID	X	Y
+1	565	575
+2	25	185
+3	345	750
+...	...	...
+Part 1
+What to do: Your assignment now is to apply Genetic Algorithm to search for the shortest route. You need to visit all the locations once and the starting and ending point must be the location number 1.
+
+Pre-conditions in order to present your code:
+The maximum distance allowed is 9000. If the distance is greater, you have to change the parameters of the algorithm or implement a different version of GA.
+A maximum of 250000 fitness calculations are allowed.
+Oral Defense Be prepared to demonstrate your running code and explain:
+
+Theory: The representation of the individual (solution) and the important operations of your algorithm.
+
+Fitness: The exact equation of the fitness function used.
+
+Parameters: The specific parameters chosen (e.g., Population size, crossover rate).
+
+Evolution: Show a figure illustrating how the population's performance evolves over generations. You have to present your evolution as a graph (i.e. a graph showing how the fitness increases over iterations).
+
+ 
+
+PART 2
+Same TSP problem
+What to do: Your assignment now is to apply Ant Colony Optimization (ACO) to search for the shortest route. You need to visit all the locations once and the starting and ending point must be the location number 1.
+The maximum distance allowed is 9000. If the distance is greater, you have to change the
+parameters of the algorithm.
+Oral Defense During the presentation, you must be able to:
+
+Explain: Describe the important operations of the employed algorithm.
+
+Visualize: Show a figure illustrating how the performance evolves with generations (again with a graph).
+
+Compare: Analyze the results found by ACO compared to GA. Discuss the differences in performance and behavior between the two algorithms.
+
+ 
+
+To pass this assignment, you must:
+
+Demonstrate Functioning Code: Your code must run during the presentation and meet all distance constraints (≤9000).
+
+Oral Examination: You must show a deep understanding of your implementation. If you cannot explain your code or answer questions regarding the algorithms, you will be asked to leave.
